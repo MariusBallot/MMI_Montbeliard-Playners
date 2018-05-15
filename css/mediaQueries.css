@@ -1,0 +1,33 @@
+@media screen and (min-width: 567px) {
+  body .big-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    z-index: 2;
+  }
+}
+
+@media screen and (max-height: 700px) {
+  .parent-logos {
+    margin-bottom: 10px;
+  }
+  .parent-logos .logo-white {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  button {
+    font-size: 14px !important;
+  }
+  input {
+    padding: 5px 10px;
+  }
+  .submit {
+    padding: 10px;
+  }
+}

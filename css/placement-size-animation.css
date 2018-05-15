@@ -1,0 +1,292 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  min-width: 100vw;
+  position: relative;
+}
+
+main {
+  transition: all .3s;
+}
+
+.about main {
+  padding: 0 30px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+main.on {
+  transform: translateX(20%);
+}
+
+.about main img {
+  width: 100px;
+  height: auto;
+}
+
+.about main p:last-child {
+  text-align: center;
+}
+
+.about main ul li {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #26272D;
+}
+
+.lil-logo {
+  position: absolute;
+  top: 15px;
+  left: 30px;
+  width: 40px;
+  height: auto;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+body.index {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+button:focus {
+  outline: none;
+}
+
+.big-screen {
+  display: none;
+}
+
+.wraper {
+  padding: 0 30px;
+}
+
+.parent-logos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.logo-white {
+  width: 200px;
+  height: auto;
+}
+
+.inscription {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.inscription .buttonsLog {
+  display: flex;
+}
+
+button.signin,
+button.login {
+  width: 50%;
+  padding: 20px;
+  border: none;
+}
+
+.buttonsLog {
+  display: flex;
+}
+
+form {
+  padding: 20px 20px;
+  border-radius: 0px 0px 30px 30px;
+}
+
+.fillText {
+  position: relative;
+}
+
+form.connexion {
+  position: absolute;
+  top: 0;
+  opacity: 0;
+}
+
+form.connexion.show {
+  opacity: 1;
+}
+
+form.inscription.hide {
+  opacity: 0;
+}
+
+form.inscription {
+  opacity: 1;
+}
+
+input {
+  box-sizing: border-box;
+  padding: 10px 20px;
+  width: 100%;
+}
+
+form button p {
+  margin: 0;
+}
+
+form .login-google {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+  border: solid lightgrey 1px;
+  border-radius: 50px;
+}
+
+form button {
+  margin: 0;
+}
+
+button .logo-g {
+  width: 50px;
+  height: auto;
+}
+
+nav.menu {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translateX(-100%);
+  transition: all .3s;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+
+nav.menu.on {
+  transform: translateX(0);
+}
+
+nav.menu .items ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background-color: white;
+}
+
+nav.menu .items ul li {
+  padding: 30px;
+}
+
+nav.menu .items ul li {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav.menu .items ul li img {
+  width: 30px;
+  height: auto;
+}
+
+nav.menu .top {
+  flex: 1;
+}
+
+nav.menu .items p {
+  width: 100%;
+  margin: 0;
+  padding: 1px 0;
+  text-align: center;
+}
+
+img.menuClosed,
+img.menuOpened {
+  top: 30px;
+  right: 30px;
+  width: 40px;
+  height: auto;
+  transition: all .3s;
+}
+
+img.menuClosed {
+  transform: translateX(0);
+}
+
+img.menuClosed.on {
+  transform: translateX(105%);
+}
+
+img.menuOpened {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(-105%);
+}
+
+img.menuOpened.on {
+  transform: translateX(0);
+}
+
+.menuButton {
+  position: fixed;
+  overflow: hidden;
+  top: 20px;
+  right: 30px;
+  z-index: 2;
+}
+
+.map main .wrapper {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.map main .wrapper .recherche {
+  height: 240px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.map main .wrapper .recherche .zone {
+  border-radius: 30px;
+  padding: 5px 15px 0 15px;
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+
+.map main .wrapper .recherche .zone h2 {
+  margin: 0 0 5px 0;
+  font-size: 1.2em;
+}
+
+.map main .wrapper .carte {
+  flex: 1;
+}
+
+.map main .wrapper .recherche .zone button {
+  margin: 0 0 -5px 0;
+  transform: translate(70%, 50%);
+}
+
+.map main .wrapper .recherche .zone input {
+  margin: 0;
+}
