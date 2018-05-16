@@ -1,1 +1,1 @@
-Voici le repo pour playners
+VOICI LE REPOSITORY DE PLAYNERS
