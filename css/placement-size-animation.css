@@ -97,8 +97,7 @@ button:focus {
   display: flex;
 }
 
-button.signin,
-button.login {
+button.signin, button.login {
   width: 50%;
   padding: 20px;
   border: none;
@@ -217,8 +216,7 @@ nav.menu .items p {
   text-align: center;
 }
 
-img.menuClosed,
-img.menuOpened {
+img.menuClosed, img.menuOpened {
   top: 30px;
   right: 30px;
   width: 40px;
@@ -289,4 +287,56 @@ img.menuOpened.on {
 
 .map main .wrapper .recherche .zone input {
   margin: 0;
+}
+
+.map .pdp {
+  background-color: #26272D;
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  margin-right: 10px;
+}
+
+.dashboard main {
+  padding-top: 80px;
+}
+
+.dashboard .pdp {
+  background-color: #26272D;
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  margin-right: 10px;
+}
+
+.dashboard .myPost {
+  padding: 10px 30px;
+  box-sizing: border-box;
+}
+
+.dashboard textarea {
+  width: 100%;
+  font-size: inherit;
+}
+
+.dashboard .myPost button {
+  float: right;
+  margin: none;
+}
+
+.dashboard .post {
+  height: 84px;
+  box-sizing: border-box;
+  overflow: hidden;
+  transition: all .3s;
+}
+
+.dashboard .post.active {
+  height: auto;
+}
+
+.dashboard .post .map {
+  width: 100%;
+  height: 200px;
+  border: solid black 0.5px;
 }
