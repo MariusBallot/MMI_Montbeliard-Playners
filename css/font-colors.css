@@ -1,144 +1,198 @@
-/* @import url('https://fonts.googleapis.com/css?family=Montserrat:200,200i,400,800i');
-/*
-#26272D
+ @import url('https://fonts.googleapis.com/css?family=Montserrat:200,200i,400,800i');
+ /* #26272D
 #DE3A4E
-#33FF33 #339B33
-*/
+#33FF33 #339B33 */
 
-body {
-  background: linear-gradient(to bottom right, #DE3A4E, #5B3A4E);
-  font-family: Montserrat, sans-serif;
-  font-size: 20px;
-  color: white;
-}
+ body {
+   background: linear-gradient(to bottom right, #DE3A4E, #5B3A4E);
+   font-family: Montserrat, sans-serif;
+   font-size: 20px;
+   color: white;
+ }
 
-nav.menu {
-  background: linear-gradient(to bottom right, #DE3A4E, #5B3A4E);
-}
+ nav.menu {
+   background: linear-gradient(to bottom right, #DE3A4E, #5B3A4E);
+ }
 
-nav.menu .items p {
-  text-transform: uppercase;
-  background-color: black;
-  font-size: 15px;
-}
+ nav.menu .items p {
+   text-transform: uppercase;
+   background-color: black;
+   font-size: 15px;
+ }
 
-nav.menu .items p a {
-  color: white;
-}
+ nav.menu .items p a {
+   color: white;
+ }
 
-nav.menu .items ul li {
-  text-transform: uppercase;
-  font-weight: 200;
-  color: #26272D;
-  font-size: 20px;
-}
+ nav.menu .items ul li {
+   text-transform: uppercase;
+   font-weight: 200;
+   color: #26272D;
+   font-size: 20px;
+ }
 
-nav.menu .items ul li:last-child {
-  background-color: #26272D;
-}
+ nav.menu .items ul li:last-child {
+   background-color: #26272D;
+ }
 
-nav.menu .items ul li:last-child a {
-  color: #DE3A4E;
-}
+ nav.menu .items ul li:last-child a {
+   color: #DE3A4E;
+ }
 
-.about main ul li {
-  font-weight: 800;
-  font-style: italic;
-  text-transform: uppercase;
-}
+ .about main ul li {
+   font-weight: 800;
+   font-style: italic;
+   text-transform: uppercase;
+ }
 
-.about main p:last-child {
-  font-size: 13px;
-}
+ .about main p:last-child {
+   font-size: 13px;
+ }
 
-.big-screen {
-  background: linear-gradient(to bottom right, #DE3A4E, #5B3A4E);
-}
+ .big-screen {
+   background: linear-gradient(to bottom right, #DE3A4E, #5B3A4E);
+ }
 
-.big-screen h1 {
-  text-align: center;
-  font-weight: 800;
-  font-style: italic;
-}
+ .big-screen h1 {
+   text-align: center;
+   font-weight: 800;
+   font-style: italic;
+ }
 
-.inscription {
-  background-color: white;
-  color: #26272D
-}
+ .inscription {
+   background-color: white;
+   color: #26272D
+ }
 
-form.connexion {
-  background-color: #26272D;
-}
+ form.connexion {
+   background-color: #26272D;
+ }
 
-.inscription .signin, .inscription .login {
-  font-weight: 800;
-  font-size: 15px;
-}
+ .inscription .signin, .inscription .login {
+   font-weight: 800;
+   font-size: 15px;
+ }
 
-.signin {
-  background-color: white;
-}
+ .signin {
+   background-color: white;
+ }
 
-.login {
-  background-color: #26272D;
-  color: white;
-}
+ .login {
+   background-color: #26272D;
+   color: white;
+ }
 
-.buttonsLog button {
-  font-size: 15px;
-  font-weight: 800;
-}
+ .buttonsLog button {
+   font-size: 15px;
+   font-weight: 800;
+ }
 
-input {
-  border: solid lightgrey 1px;
-  border-radius: 50px;
-  font-size: 15px;
-  color: grey;
-  margin-bottom: 10px;
-}
+ input {
+   border: solid lightgrey 1px;
+   border-radius: 50px;
+   font-size: 15px;
+   color: grey;
+   margin-bottom: 10px;
+ }
 
-form .login-google {
-  box-sizing: border-box;
-  font-size: 15px;
-  color: grey;
-}
+ form .login-google {
+   box-sizing: border-box;
+   font-size: 15px;
+   color: grey;
+ }
 
-.submit {
-  color: white;
-  font-size: 15px;
-  background: linear-gradient(to bottom right, #33FF33, #339B33);
-  font-weight: 800;
-  padding: 20px;
-  text-align: center;
-  width: 100%;
-  border: none;
-  border-radius: 50px;
-  margin-top: 10px;
-}
+ .submit {
+   color: white;
+   font-size: 15px;
+   background: linear-gradient(to bottom right, #33FF33, #339B33);
+   font-weight: 800;
+   padding: 20px;
+   text-align: center;
+   width: 100%;
+   border: none;
+   border-radius: 50px;
+   margin-top: 10px;
+ }
 
-.map main .wrapper .recherche{
-  background-color: #26272D;
-  }
+ .map main .wrapper .recherche {
+   background-color: #26272D;
+ }
 
-  .map main .wrapper .recherche .zone{
-    background-color: white;
-  }
+ .map main .wrapper .recherche .zone {
+   background-color: white;
+ }
 
-  .map main .wrapper .recherche .zone h2{
-    color:#26272D;
-  }
+ .map main .wrapper .recherche .zone h2 {
+   color: #26272D;
+ }
 
-  .map main .wrapper .recherche .zone button{
-    background: linear-gradient(to bottom right, #33FF33, #339B33);
-    color: white;
-    font-size: 1em;
-    font-family: Montserra, sans-serif;
-    font-weight: 200;
-    border: none;
-    padding: 10px 40px;
-    border-radius: 30px;
-  }
+ .map main .wrapper .recherche .zone button {
+   background: linear-gradient(to bottom right, #33FF33, #339B33);
+   color: white;
+   font-size: 1em;
+   font-family: Montserra, sans-serif;
+   font-weight: 200;
+   border: none;
+   padding: 10px 40px;
+   border-radius: 30px;
+ }
 
-  .map main .wrapper .recherche .zone button:focus{
-    outline: none;
-  }
+ .map main .wrapper .recherche .zone button:focus {
+   outline: none;
+ }
+
+ .dashboard main .myPost {
+   width: 100vw;
+   background-color: white;
+ }
+
+ .dashboard h1, .dashboard h2 {
+   color: #26272D;
+   font-size: 1.2em;
+   margin: 0;
+ }
+
+ .dashboard .myPost button {
+   font-size: inherit;
+   background: linear-gradient(to bottom right, #33FF33, #339B33);
+   color: white;
+   padding: 10px 50px;
+   border-radius: 100px;
+   border: none;
+ }
+
+ .dashboard .myPost button:focus {
+   outline: none;
+ }
+
+ .dashboard main .post {
+   background-color: white;
+   color: #26272D;
+   margin-top: 50px;
+   padding: 10px 30px;
+ }
+
+ .dashboard h3 {
+   margin: 0;
+   font-weight: 400;
+ }
+
+ .dashboard .post .endroit, .dashboard .post .avec {
+   font-size: .7em;
+ }
+
+ .dashboard .post .endroit::before {
+   content: url('../images-contenues/placeholder.svg');
+   display: inline-block;
+   width: 10px;
+   height: auto;
+   margin-right: 5px;
+ }
+
+ .dashboard .post .avec::before {
+   content: url('../images-contenues/friend-request.svg');
+   display: inline-block;
+   width: 15px;
+   height: auto;
+   margin-right: 5px;
+ }
