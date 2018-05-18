@@ -1,6 +1,6 @@
 <?php 
  $bodyClass = 'about';
- include('templates/header.php');
+ include('templates/header.html');
 ?>
   <main>
     <img src="images-contenues/logo-white.png" alt="logo-white">
